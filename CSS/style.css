@@ -6,5 +6,56 @@
 
 .container{
   width: 80%;
-  margin: 0 auto;
+  margin: 30px auto;
+}
+
+.box{
+  position: relative;
+  width: 33%;
+  height: 600px;
+  padding-bottom: 40px;
+  margin-bottom: 50px;
+  display: inline-block
+}
+
+img{
+  width: 100%;
+  position: absolute;
+}
+
+.outfit-a{
+  z-index: 20;
+}
+
+.outfit-b{
+  z-index: 10;
+}
+
+img:hover{
+  cursor: pointer;
+}
+
+.box:hover .outfit-a{
+  display: none;
+}
+
+.hearts{
+  position: absolute;
+  z-index: 30;
+  right: 0;
+  top: 10;
+}
+
+.discount{
+  position: absolute;
+  z-index: 30;
+  left: 0;
+  bottom: 0;
+}
+
+.sustainability{
+  position: absolute;
+  z-index: 30;
+  left: 700;
+  bottom: 0;
 }
