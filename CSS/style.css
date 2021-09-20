@@ -26,6 +26,7 @@ img {
 }
 .product:hover .outfit-b {
   display: block;
+  cursor: pointer;
 }
 
 .outfit-b {
